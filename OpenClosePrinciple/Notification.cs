@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenClosePrinciple
 {
-    internal class INotification
+    internal class Notification
     {
         public void Send(string message, string notificationType)
         {

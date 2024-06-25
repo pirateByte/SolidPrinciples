@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            INotification notification = new INotification();
+            Notification notification = new Notification();
             notification.Send("Welcome to VeArc", "SMS");
         }
     }
